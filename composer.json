@@ -1,0 +1,61 @@
+{
+    "name": "imran/laravel-webshell",
+    "version": "0.2.0",
+    "description": "A secure browser-based terminal, deployment console, and Laravel server management toolkit for environments without SSH.",
+    "keywords": [
+        "laravel",
+        "webshell",
+        "terminal",
+        "artisan",
+        "deployment",
+        "git",
+        "composer",
+        "shared-hosting",
+        "no-ssh"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Imran",
+            "homepage": "https://github.com/imran"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "illuminate/console": "^10.0|^11.0|^12.0|^13.0",
+        "illuminate/contracts": "^10.0|^11.0|^12.0|^13.0",
+        "illuminate/http": "^10.0|^11.0|^12.0|^13.0",
+        "illuminate/support": "^10.0|^11.0|^12.0|^13.0",
+        "symfony/process": "^6.0|^7.0|^8.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^8.0|^9.0|^10.0",
+        "phpunit/phpunit": "^10.5|^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Imran\\WebShell\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Imran\\WebShell\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Imran\\WebShell\\WebShellServiceProvider"
+            ],
+            "aliases": {
+                "WebShell": "Imran\\WebShell\\Facades\\WebShell"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true
+    }
+}
