@@ -1,5 +1,7 @@
 # Laravel WebShell — Modern 2027 Era Server Operations & Web Terminal
 
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/imrandevbd/laravel-webshell.svg?style=flat-square)](https://packagist.org/packages/imrandevbd/laravel-webshell)
+[![Total Downloads](https://img.shields.io/packagist/dt/imrandevbd/laravel-webshell.svg?style=flat-square)](https://packagist.org/packages/imrandevbd/laravel-webshell)
 [![PHP Version](https://img.shields.io/badge/PHP-8.2%20--%208.5-777bb4.svg?style=flat-square&logo=php)](https://php.net)
 [![Laravel Version](https://img.shields.io/badge/Laravel-10%20|%2011%20|%2012%20|%2013-ff2d20.svg?style=flat-square&logo=laravel)](https://laravel.com)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
@@ -61,7 +63,7 @@ Incoming Command / Action
 ### 1. Install via Composer
 
 ```bash
-composer require imran/laravel-webshell
+composer require imrandevbd/laravel-webshell
 ```
 
 ### 2. Run the Interactive Installer

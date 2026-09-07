@@ -1,5 +1,5 @@
 {
-    "name": "imran/laravel-webshell",
+    "name": "imrandevbd/laravel-webshell",
     "description": "A secure browser-based terminal, deployment console, and Laravel server management toolkit for environments without SSH.",
     "keywords": [
         "laravel",
@@ -16,7 +16,7 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Imran Ahmed",
+            "name": "Imran Dev BD",
             "email": "me@imrandev.bd",
             "homepage": "https://imrandev.bd"
         }
